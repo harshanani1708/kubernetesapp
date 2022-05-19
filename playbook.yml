@@ -3,9 +3,9 @@
   
   tasks:
     - name: Creating a deployment 
-      command: kubectl apply -f deployement.yml
+      command: kubectl apply -f /testproject/deployement.yml
     - name: Creating a Service to pod
-      command: kubectl apply -f service.yml
+      command: kubectl apply -f /testproject/service.yml
     - name: Getting the creaated pods
       command: kubectl get pods
     
