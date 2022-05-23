@@ -13,9 +13,9 @@ spec:
         app: webapp
     spec:
       containers:
-        name: webapplication
-        image: harshanani1708/kubernetesappimage
-        ports:
-        - containerPort: 80
+        - name: webapplication
+          image: harshanani1708/kubernetesappimage
+          ports:
+           - containerPort: 80
         
     
